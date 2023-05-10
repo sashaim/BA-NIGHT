@@ -14,19 +14,19 @@ export const styles = StyleSheet.create({
       // marginHorizontal : 20xs
         alignItems : 'center' ,
         justifyContent : 'space-around',
-        fontsize: 20,
+        fontSize: 20,
     },
     input:{
         width: '80%' ,
         borderBottomWidth: 1 ,
         borderBottomColor : '#3C4F76',
         color : '#3C4F76',
-        fontsize: 20,
+        fontSize: 20,
       // alignItems : center , 
     },
     button : {
         backgroundColor : '#3C4F76',
-        fontsize:20,
+        fontSize:20,
 
     },
     listContainer: {
@@ -47,7 +47,42 @@ export const styles = StyleSheet.create({
         color:'#fff',
         fontsize:16 ,
         
-    }
+    },
+    modalContainer: {
+        justifyContent: 'center',
+        alignItems: 'center', 
+        marginTop : 60 ,
+        paddingVertical : 20,
+    
+    },
+    modalTitle : {
+        fontSize : 16,
+        fontWeight: 'bold',
+        marginBottom : 10,
+        
+    },
+    modalDatailContainer : {
+        paddingVertical: 20,
+    },
+    modalDatainMessage : {
+        fontSize : 14,
+        color :'#212121',
+    },
+    // selectedEvent : {
+    //     fontSize : 14,
+    //     color:'#212121',
+    //     fontWeight:'bold',
+    //     paddingVertical: 10,
+    //     textAlign: 'center',
+    //     marginBottom : 'center',
+    // },
+    buttonContainer : {
+        width : '80%',
+        flexDirection: 'row',
+        justifyContent : 'space-around',
+    },
+
+
 
 });
 
